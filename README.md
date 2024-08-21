@@ -27,31 +27,7 @@ Este projeto é um portfólio pessoal desenvolvido por **Maxwell Moura** para ex
 - **Download do CV**: Opção para baixar o currículo em formato PDF diretamente da página inicial.
 - **Links para redes sociais**: Acesso rápido às principais redes sociais de Maxwell Moura.
 
-## Instalação
 
-Clone o repositório:
-
-```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-- **Acesse o diretório do projeto:**
-```bash
-cd nome-do-repositorio
-- **Instale as dependências:**
-npm install
-- **Execute o projeto:**
-npm start
-
-## Estrutura de Pastas
-
-* `/src/components/NavBar`: Contém o componente de navegação do portfólio.  
-* `/src/components/Footer`: Contém o rodapé com as redes sociais.  
-* `/src/pages/Home`: Página inicial do portfólio.  
-* `/src/pages/Sobre`: Página com informações detalhadas sobre Maxwell.  
-* `/src/pages/Linguagens`: Página dedicada às habilidades e tecnologias dominadas.  
-* `/src/pages/Projetos`: Página com uma galeria de projetos desenvolvidos.  
-## Contato
-
-* WhatsApp: [Clique aqui](https://api.whatsapp.com/send?phone=seu-numero)  
 * Facebook: Maxwell Moura  
 * GitHub: Maxwell Moura  
 * Instagram: orc.dev  
