@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 70px; 
+  padding: 20px;
+}
+
+article {
+  margin-top: 100px;
+  background-color: #f9f9f9; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  display: flex; 
+  justify-content: space-between; /* Adiciona espaço entre texto e imagem */
+  align-items: center; /* Alinha verticalmente os itens */
+}
+
+.texto h1, .texto h2 {
+  margin: 0; 
+  color: #333; 
+}
+
+.texto h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.texto h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 10px; 
+}
+
+.imagem {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: flex-end; /* Alinha a imagem e o botão ao final */
+}
+
+.imagem img {
+  max-width: 200px; 
+  border-radius: 100px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.botoes {
+  margin-top: 20px; 
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.botao:hover {
+  background-color: #62666b;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
